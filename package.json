@@ -1,0 +1,19 @@
+{
+  "name": "dnd5e-server",
+  "version": "0.0.1",
+  "description": "the server for the dnd5e client.",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.6"
+  },
+  "devDependencies": {
+    "ttab": "^0.6.1"
+  },
+  "scripts": {
+    "mongodb": "mongod --dbpath /Users/messier_matthew/Documents/websites/dnd5e-server/data/db",
+    "server": "node server.js"
+  }
+}
